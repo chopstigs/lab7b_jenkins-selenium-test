@@ -1,0 +1,93 @@
+body{
+	font-family:verdana;
+	background-color:#aaaae3;
+}
+
+.container{
+	width:40%;
+	margin:10% auto;
+	border:1px solid #eeeeee;
+	background:#ffffff;
+}
+
+.container-dashboard{
+	width:90%;
+	border:1px solid #eeeeee;
+	background:#ffffff;
+	padding:10px;
+}
+
+.field-container{
+	margin:10px auto;
+	width:400px;
+}
+	
+h1{
+	text-align:center;
+	line-height:30px;
+	font-size:24px;
+	color:#061e5a;
+}
+
+label{
+	display:block;
+	padding-bottom:5px;
+	color:#F05519;
+	font-weight:500;
+}
+
+input[type=email],input[type=password]{
+	border:1px solid #eeeeee;
+	width:100%;
+	height:30px;
+	padding-left:4px;
+	
+}
+
+button{
+	background:#061e5a;
+	border:1px solid #061e5a;
+	color:#ffffff;
+	margin:10px 0px;
+	padding:5px;
+}
+
+button:hover{
+	background:#F05519;
+	border:1px solid #F05519;
+}
+
+
+.error-msg{
+	border:1px solid #ee0000;
+	background:#ee0000;
+	color:#ffffff;
+	padding:2px;
+	font-size:13px;
+}
+
+.success-msg{
+	border:1px solid #0ebc6f;
+	background:#0ebc6f;
+	color:#ffffff;
+	font-size:13px;
+	padding:2px;
+}
+
+
+.user-name{
+	color:#ee0000;
+}
+
+.logout-link{
+	margin-top:10px;
+	display:block;
+	background:#061e5a;
+	border:1px solid #061e5a;
+	color:#ffffff;
+	width:48px;
+	padding:5px;
+	text-decoration:none;
+	font-size:13px;
+}
+
